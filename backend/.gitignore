@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/dist
+/build
+/tmp
+/temp
+
+# misc
+.env
+.DS_Store
+.env.local
+.env.*.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+.env.test
+.env.test.local
+
+#  IDE / System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#  Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/logs
+*.log
+
+#  Misc
+*.cache
+.cache/
+.vscode/
+.eslintcache
+
+#  Database
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+/database
+/data
+/dump
+/backups
+
+#  PM2
+.pids
+*.pid
+*.seed
+*.pid.lock
